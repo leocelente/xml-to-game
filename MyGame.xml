@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+    <place title="Kitchen">
+        <obj title="Fridge">
+            <question title="Eat Apples">
+                <awnser gold="false">Ok. now you're not hungry</awnser>
+            </question>
+            <question title="Drink Water">
+                <awnser gold="false">Ok. now you're not thirsty</awnser>
+            </question>
+            <question title="Grab Juice Bottle">
+                <awnser gold="false">Check if it's empty</awnser>
+                <awnser gold="true">Check if it has the transgenic symbol</awnser>
+                <awnser gold="false">Ok. now you're not thirsty</awnser>
+            </question>
+        </obj>
+        <obj title="Closet">
+            <question title="Look Around">
+                <awnser gold="false">Ok. nothing here</awnser>
+            </question>
+        </obj>
+		<obj title="Tiago">
+            <question title="Fale com ele">
+                <awnser gold="true">Parabens</awnser>
+            </question>
+        </obj>
+        <obj title="Sink">
+            <question title="Look Around">
+                <awnser gold="false">Ok. nothing here!</awnser>
+            </question>
+        </obj>
+        <obj title="Trashcan">
+            <question title="Grab Candie">
+                <awnser gold="true">Check if it has the transgenic symbol</awnser>
+            </question>
+        </obj>
+    </place>
+</file>
